@@ -83,7 +83,7 @@ export default function ConveyancingPage() {
             <p className="text-base sm:text-lg lg:text-xl text-[#ccfbf1] leading-relaxed mb-8 lg:mb-12 max-w-xl">
               We provide expert legal guidance for property transactions and
               commercial leases, ensuring your investments are protected with
-              meticulous attention to detail and comprehensive due diligence.
+              meticulous attention to detail and comprehensive due diligence
             </p>
             <Link href="/contact">
               <Button
