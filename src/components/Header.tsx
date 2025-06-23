@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, ChevronRight, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const navItems = [
   {
@@ -13,6 +14,8 @@ const navItems = [
       { label: "Copyright Law", href: "/copyright-laws" },
       { label: "Trademarks", href: "/trademarks" },
       { label: "IP Management", href: "/ip-management" },
+      { label: "Wills and Estates", href: "/wills-estates" },
+      { label: "Conveyancing", href: "/conveyancing" },
     ],
   },
   { label: "Pricing", href: "/pricing", hasSubmenu: false },
@@ -180,12 +183,14 @@ export default function Header() {
           </nav>
 
           {/* Desktop CTA Button */}
-          <Button
-            className={`hidden lg:flex cursor-pointer bg-white text-[#134e4a] hover:bg-[#f0fdfa] font-semibold rounded-md transition-all duration-300 ${
-              isScrolled ? "px-4 py-3 text-sm" : "px-6 py-6 text-base"
-            }`}>
-            Book a Free Consult
-          </Button>
+          <Link href="/contact">
+            <Button
+              className={`hidden lg:flex cursor-pointer bg-white text-[#134e4a] hover:bg-[#f0fdfa] font-semibold rounded-md transition-all duration-300 ${
+                isScrolled ? "px-4 py-3 text-sm" : "px-6 py-6 text-base"
+              }`}>
+              Book a Free Consult
+            </Button>
+          </Link>
 
           {/* Minimalist Mobile Menu Button */}
           <button
@@ -299,7 +304,7 @@ export default function Header() {
           {/* Mobile Menu Footer */}
           <div className="p-4 items-center w-full justify-center flex self-center border-t border-gray-100">
             <Button className="w-full max-w-xl mx-auto bg-[#134e4a] hover:bg-[#0f3730] text-white font-medium py-7 cursor-pointer rounded-xl">
-              Book a Free Consult
+              <Link href="/contact">Book a Free Consult</Link>
             </Button>
           </div>
         </div>
