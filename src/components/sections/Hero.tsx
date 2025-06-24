@@ -44,7 +44,7 @@ export default function Hero() {
                 />
               </div>
               {/* Tooltip */}
-              <div className="absolute top-3 right-20 sm:-top-2 sm:right-40 bg-[#ccfbf176] backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg">
+              <div className="hidden sm:block absolute top-3 right-20 sm:-top-2 sm:right-40 bg-[#ccfbf176] backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg">
                 <p className="text-sm font-medium text-gray-800 whitespace-nowrap">
                   Empowering Australian
                   <br />
@@ -52,7 +52,7 @@ export default function Hero() {
                 </p>
               </div>
               {/* Additional Tooltip */}
-              <div className="absolute bottom-[13rem] left-24 sm:bottom-56 sm:left-32 bg-[#1e7e7e] backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg">
+              <div className="hidden sm:block absolute bottom-[13rem] left-24 sm:bottom-56 sm:left-32 bg-[#1e7e7e] backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg">
                 <p className="text-sm font-medium text-white whitespace-nowrap">
                   Trusted legal support for
                   <br />
