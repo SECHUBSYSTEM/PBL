@@ -115,13 +115,13 @@ export default function PricingPage() {
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Licensing abd assignments
+                    Licensing and assignments
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    IP stratedy
+                    IP strategy
                   </span>
                 </li>
               </ul>
