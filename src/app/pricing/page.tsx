@@ -39,31 +39,31 @@ export default function PricingPage() {
 
               <div className="mb-6">
                 <p className="text-2xl font-bold text-[#134e4a] mb-1">
-                  $495 + Government Fees
+                  $695 + Government Fees
                 </p>
               </div>
 
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Initial consultation</span>
+                  <span className="text-gray-700">Initial consultation and comprehensive search</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Preliminary trade mark search
+                    Advice from former trade mark examiner
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Application preparation & filing
+                    Australian or international applications
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Administrative exam responses & amendments
+                    Or contact us for help with self-filing
                   </span>
                 </li>
               </ul>
@@ -76,7 +76,7 @@ export default function PricingPage() {
             </CardContent>
           </Card>
 
-          {/* Comprehensive Legal Responses */}
+          {/* Intellectual Property Actions */}
           <Card className="bg-white border border-gray-200 hover:shadow-lg transition-shadow">
             <CardContent className="p-6">
               <div className="flex items-center gap-3 mb-4">
@@ -89,13 +89,13 @@ export default function PricingPage() {
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-[#134e4a]">
-                  Comprehensive Legal Responses
+                  Intellectual Property Actions
                 </h3>
               </div>
 
               <div className="mb-6">
                 <p className="text-2xl font-bold text-[#134e4a] mb-1">
-                  Contact Us
+                  From $750
                 </p>
               </div>
 
@@ -103,25 +103,25 @@ export default function PricingPage() {
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Custom legal responses to the IP Office
+                    Negotiations
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Assessment of objections raised
+                    Cease and desist letters
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Guidance on trade mark objections
+                    Licensing abd assignments
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">
-                    Support for compliance issues
+                    IP stratedy
                   </span>
                 </li>
               </ul>
@@ -135,121 +135,10 @@ export default function PricingPage() {
           </Card>
 
           {/* Cease & Desist Action */}
-          <Card className="bg-white border border-gray-200 hover:shadow-lg transition-shadow">
-            <CardContent className="p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-2 rounded-lg">
-                  <Image
-                    src="/warning.png"
-                    alt="Warning icon"
-                    width={20}
-                    height={20}
-                  />
-                </div>
-                <h3 className="text-xl font-semibold text-[#134e4a]">
-                  Cease & Desist Action
-                </h3>
-              </div>
 
-              <div className="mb-6">
-                <p className="text-2xl font-bold text-[#134e4a] mb-1">
-                  Trade Marks & Copyright - $750
-                </p>
-              </div>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Formal legal letter to enforce rights
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Review of potential infringements
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Negotiation with infringing parties
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Legal strategy consultation
-                  </span>
-                </li>
-              </ul>
-
-              <Link href="/contact">
-                <Button className="w-full bg-[#134e4a] hover:bg-[#0f3f3c] text-white">
-                  Get Started
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
 
           {/* Licensing & Assignment Contracts */}
-          <Card className="bg-white border border-gray-200 hover:shadow-lg transition-shadow">
-            <CardContent className="p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-2  rounded-lg">
-                  <Image
-                    src="/note.png"
-                    alt="Note icon"
-                    width={20}
-                    height={20}
-                  />
-                </div>
-                <h3 className="text-xl font-semibold text-[#134e4a]">
-                  Licensing & Assignment Contracts
-                </h3>
-              </div>
-
-              <div className="mb-6">
-                <p className="text-2xl font-bold text-[#134e4a] mb-1">
-                  Drafting: $750 | Reviewing: $550
-                </p>
-              </div>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Custom contract drafting
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Legal review of existing contracts
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Advisory on licensing terms
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-[#134e4a] rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">
-                    Ensuring compliance with IP laws
-                  </span>
-                </li>
-              </ul>
-
-              <Link href="/contact">
-                <Button className="w-full bg-[#134e4a] hover:bg-[#0f3f3c] text-white">
-                  Get Started
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
-
+          
           {/* Drafting Wills */}
           <Card className="bg-white border border-gray-200 hover:shadow-lg transition-shadow">
             <CardContent className="p-6">
