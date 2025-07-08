@@ -9,7 +9,7 @@ export default function WhyPropertyLawMatters() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-transparent">
               <Image
-                src="/Conveyancing.png"
+                src="/will.jpg"
                 width={800}
                 height={600}
                 alt="Property documents"

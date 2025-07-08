@@ -28,21 +28,21 @@ const practiceAreas = [
     title: "Will & Estates",
     description:
       "Protect your legacy and get peace of mind with expert guidance every step forward.",
-    image: "/will.jpg",
+    image: "/conveyancing.png",
     alt: "Will and Estate planning services",
   },
   {
     title: "Conveyancing",
     description:
       "We will negotiate favourable lease terms for your venture with clarity and strategy.",
-    image: "/Conveyancing.png",
+    image: "/leasing.png",
     alt: "Conveyancing legal services",
   },
   {
     title: "Commercial Leasing",
     description:
       "Expert guidance through every step of the transaction for successful outcomes.",
-    image: "/leasing.png",
+    image: "/leasing1.jpg",
     alt: "Commercial leasing legal services",
   },
 ];

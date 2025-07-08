@@ -9,7 +9,7 @@ export default function WhyWillMatters() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-transparent">
               <Image
-                src="/will.jpg" // Re-using image
+                src="/conveyancing.png" // Re-using image
                 width={800}
                 height={600}
                 alt="Document for wills and estates"
