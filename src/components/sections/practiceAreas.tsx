@@ -61,7 +61,7 @@ export default function PracticeAreas() {
           <p className="text-gray-600 max-w-3xl mx-auto text-lg">
             We help businesses in Australia navigate the complexities of
             protecting their brand and creative assets, ensuring they make
-            informed legal decisions without wasting time or money.
+            informed legal decisions without wasting time or money
           </p>
         </div>
 
