@@ -103,7 +103,7 @@ export default function Header() {
         }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
           {/* Logo and Brand */}
-          <div className="flex items-center gap-3 flex-shrink-0">
+          <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             <div
               className={`flex items-center justify-center transition-all duration-300 ${
                 isScrolled ? "w-8 h-8" : "w-10 h-10"
@@ -126,7 +126,7 @@ export default function Header() {
                 POINT BREAK LEGAL
               </h1>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
@@ -229,7 +229,7 @@ export default function Header() {
         <div className="h-full flex flex-col">
           {/* Mobile Menu Header */}
           <div className="flex items-center justify-between p-4 border-b border-gray-100">
-            <div className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-3">
               <div className="w-10 h-10 bg-white rounded-md flex items-center justify-center">
                 <Image
                   src="/logo.png"
@@ -242,7 +242,7 @@ export default function Header() {
               <span className="text-[#134e4a] font-bold text-lg">
                 POINT BREAK LEGAL
               </span>
-            </div>
+            </Link>
             <button
               onClick={toggleMobileMenu}
               className="w-10 h-10 flex items-center justify-center text-gray-500"

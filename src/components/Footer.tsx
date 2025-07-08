@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="border-t border-1 border-white my-8"></div>
         {/* Bottom Section - Logo and Copyright */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center space-x-3">
             <div className="w-8 h-8 bg-transparent flex items-center justify-center">
               <Image
                 src="/logo.png"
@@ -101,7 +101,7 @@ export default function Footer() {
             <span className="text-xl font-bold tracking-wide">
               POINT BREAK LEGAL
             </span>
-          </div>
+          </Link>
 
           <div className="text-base text-white text-center md:text-right">
             &copy; {new Date().getFullYear()} Point Break Legal. All rights

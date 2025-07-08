@@ -67,7 +67,7 @@ export default function ConveyancingPage() {
         <div
           className="absolute inset-0 bg-cover md:bg-contain bg-center bg-no-repeat opacity-40"
           style={{
-            backgroundImage: "url('/Conveyancing.png')",
+            backgroundImage: "url('/leasing.png')",
             backgroundPosition: "center right",
           }}
         />
@@ -114,7 +114,7 @@ export default function ConveyancingPage() {
         backgroundColor="bg-white"
       />
       <HaveQuestions
-        imageSrc="/leasing.png"
+        imageSrc="/leasing1.jpg"
         imageAlt="Commercial leasing discussion"
       />
     </>
