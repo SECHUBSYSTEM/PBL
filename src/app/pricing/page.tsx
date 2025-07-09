@@ -39,7 +39,7 @@ export default function PricingPage() {
 
               <div className="mb-6">
                 <p className="text-2xl font-bold text-[#134e4a] mb-1">
-                  $695 + Government Fees
+                  $795 + Govt Fees
                 </p>
               </div>
 
@@ -158,7 +158,7 @@ export default function PricingPage() {
 
               <div className="mb-6">
                 <p className="text-2xl font-bold text-[#134e4a] mb-1">
-                  From - $280
+                  From - $380
                 </p>
               </div>
 
@@ -264,7 +264,7 @@ export default function PricingPage() {
 
               <div className="mb-6">
                 <p className="text-2xl font-bold text-[#134e4a] mb-1">
-                  From - $700
+                  From - $850
                 </p>
               </div>
 
