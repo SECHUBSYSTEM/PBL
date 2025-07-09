@@ -67,7 +67,7 @@ export default function WillsEstatesPage() {
         <div
           className="absolute inset-0 bg-cover md:bg-cover bg-center bg-no-repeat opacity-40"
           style={{
-            backgroundImage: "url('/conveyancing.png')",
+            backgroundImage: "url('/wills-image.jpg')",
             backgroundPosition: "center right",
           }}
         />

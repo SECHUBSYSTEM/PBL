@@ -28,7 +28,7 @@ const practiceAreas = [
     title: "Will & Estates",
     description:
       "Protect your legacy and get peace of mind with expert guidance every step forward.",
-    image: "/conveyancing.png",
+    image: "/wills-image.jpg",
     alt: "Will and Estate planning services",
   },
   {
