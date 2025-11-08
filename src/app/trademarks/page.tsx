@@ -19,17 +19,17 @@ export default function Trademarks() {
       number: "2",
       title: "Preliminary Search",
       description:
-        "A thorough search helps identify potential conflicts with existing trademarks. This step reduces the risk of rejection and ensures a smoother registration process.",
+        "A thorough search helps identify potential conflicts with existing trade marks. This step reduces the risk of rejection and ensures a smoother registration process.",
     },
     {
       number: "3",
       title: "Application & Preparation",
       description:
-        "We carefully prepare and submit your trademark application, ensuring accuracy and compliance with legal requirements to increase approval chances.",
+        "We carefully prepare and submit your trade mark application, ensuring accuracy and compliance with legal requirements to increase approval chances.",
     },
     {
       number: "4",
-      title: "Securing Your Trademark",
+      title: "Securing Your Trade Mark",
       description:
         "After submission, we monitor your trade mark status, address any legal issues, and assist with renewals to ensure your protection remains in place.",
     },
@@ -53,7 +53,7 @@ export default function Trademarks() {
         <div className="relative z-10 container mx-auto px-6 py-12 lg:py-24 min-h-screen flex items-center">
           <div className="max-w-2xl">
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-[#ccfbf1] leading-tight mb-6 lg:mb-8">
-              Trademarks
+              Trade Marks
             </h1>
 
             <p className="text-base sm:text-lg lg:text-xl text-[#ffffff] leading-relaxed mb-8 lg:mb-12 max-w-xl">
